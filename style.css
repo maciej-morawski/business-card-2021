@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #2c2141;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background: #f8f8f8;
+  border-radius: 16px;
+  width: 624px;
+  margin: 16px;
+  padding: 32px;
+}
+
+.person {
+  display: flex;
+  align-items: flex-start;
+}
+
+.person__picture {
+  margin-right: 32px;
+}
+
+.person__name {
+  font-size: 36px;
+  margin: 0;
+  font-weight: normal;
+}
+
+.person__info {
+  margin-bottom: 24px;
+}
+
+.person__position {
+  font-size: 18px;
+  color: #545454;
+  font-style: italic;
+  margin: 0;
+}
+
+.person__description {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.special {
+  color: #ed6d05;
+  font-weight: normal;
+}
+
+.personal__link {
+  color: #e20613;
+  text-decoration: none;
+}
